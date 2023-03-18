@@ -1,7 +1,19 @@
 // set all variables
-
+var challengeCard = document.querySelector("#challengeCard");
+var timeInterval;
+var timeLeft = allQuestions.length * 15;
 // quiz timer
+function timer() {
+  timeInterval = setInterval(function () {
+    timeLeft--;
+    timerDisplay.textContent = "Timer: " + timeLeft;
 
+    if (timeLeft === 0 || q >= allQuestions.length) {
+      clearInterval(timeInterval);
+      gameOver();
+    }
+  }, 1000);
+}
 // display questions and answers
 
 // Telling user if selection is correct
