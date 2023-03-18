@@ -31,8 +31,14 @@ var allQuestions = [
     answer: ["if (hour < 18) {"],
   },
 
-  question: "What is an example of code that is commented out?",
-  selection: ["// This code is commented out", "/This code is commented out", "**This code is commented out", "##This code is commented out"],
-  answer: ["//This code is commented out"],
+  {
+    question: "What is an example of code that is commented out?",
+    selection: [
+      "// This code is commented out",
+      "/This code is commented out",
+      "**This code is commented out",
+      "##This code is commented out",
+    ],
+    answer: ["//This code is commented out"],
+  },
 ];
-// This code is commented out
