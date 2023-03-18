@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/CSS/style.css" />
     <title>Code Challenge</title>
   </head>
   <body>
     <h1>Code Challenge</h1>
+    <!-- starting message and starting button -->
     <div class="startQuiz">
       <p>
         Answer the following questions within the time limit. Each incorrect
@@ -15,6 +17,11 @@
       </p>
       <button id="startBtn" type="button" class="btn">Start Challenge</button>
     </div>
+    <!-- Adding main section where questions are displayed -->
+    <main class="main">
+      <div id="challengeCard" class="cardHide"></div>
+      <h2 class="timer">Timer:</h2>
+    </main>
     <script>
       src = "./assets/JS/codequestions.js";
     </script>
