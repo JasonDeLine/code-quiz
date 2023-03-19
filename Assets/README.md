@@ -1,3 +1,13 @@
+Deployed Link:
+
+
+Description:
+Using javaScript, HTML, CSS, created a quiz that asks the user questions about JavaScript, tells the user if their selection was Correct, or Wrong, tracks the score, and creates a leader board with user input initials.
+
+Contributors:
+Pete DeLine
+W3 Schools
+
 # 04 Web APIs: Code Quiz
 
 ## Your Task
