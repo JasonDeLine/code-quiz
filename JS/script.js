@@ -68,7 +68,7 @@ function questionClick() {
     }
     // display new time on page
     timerEl.textContent = time;
-    feedbackEl.textContent = "Wrong!";
+    feedbackEl.textContent = "Incorrect!";
     feedbackEl.style.color = "red";
     feedbackEl.style.fontSize = "400%";
   } else {
